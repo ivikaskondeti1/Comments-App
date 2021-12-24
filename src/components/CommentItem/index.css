@@ -1,0 +1,85 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.CommentList {
+  margin-left: -40px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.Namediv {
+  margin-bottom: -15px;
+  display: flex;
+  flex-direction: row;
+}
+.Initial {
+  padding-top: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.name {
+  color: #1e293b;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.time {
+  color: #cbd2d9;
+  margin-right: 10px;
+}
+.Comment {
+  margin-left: 50px;
+  color: #475569;
+}
+.likesblock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.like {
+  display: flex;
+  flex-direction: row;
+}
+.like {
+  background-color: transparent;
+  border: 0px;
+  font-size: 15px;
+}
+.liked {
+  background-color: transparent;
+  border: 0px;
+  font-size: 15px;
+  color: #0b69ff;
+}
+.likeImage {
+  margin-right: 10px;
+}

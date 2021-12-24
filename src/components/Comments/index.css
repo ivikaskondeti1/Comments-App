@@ -1,0 +1,66 @@
+.mainPage {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.commntsBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.formBox {
+  display: flex;
+  flex-direction: column;
+}
+input,
+textarea {
+  width: 500px;
+  height: 30px;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #dee0e3;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+.btn {
+  color: white;
+  background-color: #0284c7;
+  border: 0;
+  height: 30px;
+  width: 100px;
+  padding: 3px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.commentPara {
+  font-style: italic;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.line {
+  color: #475569;
+}
+.CommnetCount {
+  display: flex;
+  flex-direction: row;
+}
+.count {
+  padding-top: 3px;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  background-color: #0284c7;
+  border: 0;
+  border-radius: 5px;
+}
+.listItems {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
